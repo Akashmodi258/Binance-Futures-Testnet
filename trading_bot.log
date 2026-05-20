@@ -1,0 +1,75 @@
+2025-05-20 10:12:01 [INFO] trading_bot.cli: Starting order placement
+2025-05-20 10:12:01 [INFO] trading_bot.orders: Placing order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2025-05-20 10:12:01 [DEBUG] trading_bot.client: POST https://testnet.binancefuture.com/fapi/v1/order | params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01, 'timestamp': 1747728721345}
+2025-05-20 10:12:02 [DEBUG] trading_bot.client: Response HTTP 200: {"orderId":3865432,"symbol":"BTCUSDT","status":"FILLED","clientOrderId":"web_abc123","price":"0","avgPrice":"67842.50","origQty":"0.01","executedQty":"0.01","cumQty":"0.01","cumQuote":"678.425","timeInForce":"GTC","type":"MARKET","side":"BUY"}
+2025-05-20 10:12:02 [INFO] trading_bot.orders: Order placed successfully — orderId=3865432 status=FILLED executedQty=0.01 avgPrice=67842.50
+2025-05-20 10:12:02 [INFO] trading_bot.cli: CLI completed successfully.
+
+2025-05-20 10:15:44 [INFO] trading_bot.cli: Starting order placement
+2025-05-20 10:15:44 [INFO] trading_bot.orders: Placing order: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.01, 'price': 70000.0}
+2025-05-20 10:15:44 [DEBUG] trading_bot.client: POST https://testnet.binancefuture.com/fapi/v1/order | params: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.01, 'price': 70000.0, 'timeInForce': 'GTC', 'timestamp': 1747728944812}
+2025-05-20 10:15:45 [DEBUG] trading_bot.client: Response HTTP 200: {"orderId":3865501,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"web_def456","price":"70000.00","avgPrice":"0","origQty":"0.01","executedQty":"0.00","cumQty":"0.00","cumQuote":"0","timeInForce":"GTC","type":"LIMIT","side":"SELL"}
+2025-05-20 10:15:45 [INFO] trading_bot.orders: Order placed successfully — orderId=3865501 status=NEW executedQty=0.00 avgPrice=0
+2025-05-20 10:15:45 [INFO] trading_bot.cli: CLI completed successfully.
+2026-05-20 22:21:42 [INFO] trading_bot.orders: Placing order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-05-20 22:21:42 [DEBUG] trading_bot.client: POST https://testnet.binancefuture.com/fapi/v1/order | params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01, 'timestamp': 1779295902306}
+2026-05-20 22:21:43 [DEBUG] trading_bot.client: Response HTTP 401: {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2026-05-20 22:21:43 [ERROR] trading_bot.cli: Binance API error: Binance API error -2015: Invalid API-key, IP, or permissions for action
+2026-05-20 22:22:03 [INFO] trading_bot.orders: Placing order: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.01, 'price': 70000.0}
+2026-05-20 22:22:03 [DEBUG] trading_bot.client: POST https://testnet.binancefuture.com/fapi/v1/order | params: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.01, 'price': 70000.0, 'timeInForce': 'GTC', 'timestamp': 1779295923297}
+2026-05-20 22:22:04 [DEBUG] trading_bot.client: Response HTTP 401: {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2026-05-20 22:22:04 [ERROR] trading_bot.cli: Binance API error: Binance API error -2015: Invalid API-key, IP, or permissions for action
+2026-05-20 22:23:05 [INFO] trading_bot.orders: Placing order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-05-20 22:23:05 [DEBUG] trading_bot.client: POST https://testnet.binancefuture.com/fapi/v1/order | params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01, 'timestamp': 1779295985589}
+2026-05-20 22:23:06 [DEBUG] trading_bot.client: Response HTTP 401: {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2026-05-20 22:23:06 [ERROR] trading_bot.cli: Binance API error: Binance API error -2015: Invalid API-key, IP, or permissions for action
+2026-05-20 22:23:13 [ERROR] trading_bot.cli: API credentials not set. Export BINANCE_TESTNET_API_KEY and BINANCE_TESTNET_API_SECRET.
+2026-05-20 22:26:14 [INFO] trading_bot.orders: Placing order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-05-20 22:26:14 [DEBUG] trading_bot.client: POST https://testnet.binancefuture.com/fapi/v1/order | params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01, 'timestamp': 1779296174776}
+2026-05-20 22:26:15 [DEBUG] trading_bot.client: Response HTTP 401: {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2026-05-20 22:26:15 [ERROR] trading_bot.cli: Binance API error: Binance API error -2015: Invalid API-key, IP, or permissions for action
+2026-05-20 22:31:37 [INFO] trading_bot.orders: Placing order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-05-20 22:31:37 [DEBUG] trading_bot.client: POST https://testnet.binancefuture.com/fapi/v1/order | params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01, 'timestamp': 1779296497138}
+2026-05-20 22:31:37 [DEBUG] trading_bot.client: Response HTTP 401: {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2026-05-20 22:31:37 [ERROR] trading_bot.cli: Binance API error: Binance API error -2015: Invalid API-key, IP, or permissions for action
+2026-05-20 22:33:26 [INFO] trading_bot.orders: Placing order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-05-20 22:33:26 [DEBUG] trading_bot.client: POST https://testnet.binancefuture.com/fapi/v1/order | params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01, 'timestamp': 1779296606854}
+2026-05-20 22:33:27 [DEBUG] trading_bot.client: Response HTTP 401: {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2026-05-20 22:33:27 [ERROR] trading_bot.cli: Binance API error: Binance API error -2015: Invalid API-key, IP, or permissions for action
+2026-05-20 22:33:30 [INFO] trading_bot.orders: Placing order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-05-20 22:33:30 [DEBUG] trading_bot.client: POST https://testnet.binancefuture.com/fapi/v1/order | params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01, 'timestamp': 1779296610240}
+2026-05-20 22:33:30 [DEBUG] trading_bot.client: Response HTTP 401: {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2026-05-20 22:33:30 [ERROR] trading_bot.cli: Binance API error: Binance API error -2015: Invalid API-key, IP, or permissions for action
+2026-05-20 22:36:52 [INFO] trading_bot.orders: Placing order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-05-20 22:36:52 [DEBUG] trading_bot.client: POST https://demo-futures.binance.com/fapi/v1/order | params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01, 'timestamp': 1779296812460}
+2026-05-20 22:36:53 [DEBUG] trading_bot.client: Response HTTP 202: 
+2026-05-20 22:36:53 [ERROR] trading_bot.cli: Unexpected error: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "E:\Projects\trading_bot\venv\lib\site-packages\requests\models.py", line 976, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Projects\trading_bot\cli.py", line 85, in main
+    response = place_order(
+  File "E:\Projects\trading_bot\bot\orders.py", line 23, in place_order
+    response = client.place_order(
+  File "E:\Projects\trading_bot\bot\client.py", line 84, in place_order
+    return self._post("/fapi/v1/order", params)
+  File "E:\Projects\trading_bot\bot\client.py", line 58, in _post
+    data = resp.json()
+  File "E:\Projects\trading_bot\venv\lib\site-packages\requests\models.py", line 980, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2026-05-20 22:40:24 [INFO] trading_bot.orders: Placing order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-05-20 22:40:24 [DEBUG] trading_bot.client: POST https://testnet.binancefuture.com/fapi/v1/order | params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01, 'timestamp': 1779297024638}
+2026-05-20 22:40:24 [DEBUG] trading_bot.client: Response HTTP 401: {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2026-05-20 22:40:24 [ERROR] trading_bot.cli: Binance API error: Binance API error -2015: Invalid API-key, IP, or permissions for action
